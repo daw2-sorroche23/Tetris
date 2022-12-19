@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="./assets/index.e9c6b103.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <script type="module" src="./assets/index.8d56cc4b.js"></script>
+    <script src="https://kit.fontawesome.com/8737b21f11.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="bg-dark">
+    <header class="bg-dark border-bottom">
+      <div class="container-fluid p-3">
+        <div class="row"> 
+          <div class="col-12 d-flex justify-content-between">
+            <a href="./editarPerfil.html"><img src="./imagen/user.png" alt="" class="avatar"></a>
+            <button type="button" class="btn btn-primary me-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"><i class="fa-solid fa-bars"></i></button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+    
+              <div>
+                <div>
+                    <ul>
+                        <button><a class="dropdown-item" href="./index.html">Pagina Inicio</a></button>
+                      </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="bg-dark">
+        <div class="row">
+            <div class="col-12 text-center position-absolute bottom-60 end-0">
+                <div>
+                    <img class="imagen pb-4 pt-4" src="./imagen/user.png" alt="">
+                </div>
+                <div class="">
+                    <h1>SIGN IN</h1>
+                </div>
+                <div>
+                    <div class="form-floating">
+                        <label for="floatingInput">NICK:</label>
+                        <br>
+                        <input type="name" class="form-control bg-dark" id="floatingInput" placeholder="Zeus">
+                    </div>
+                    <div class="form-floating text-center">
+                        <label for="floatingPassword">PASSWORD:</label>
+                        <br>
+                        <input type="password" class="form-control bg-dark" id="floatingPassword" placeholder="Password">
+                    </div>
+                    <div class="form-floating text-center">
+                        <label for="floatingPassword">CONFIRMED PASSWORD:</label>
+                        <br>
+                        <input type="password" class="form-control bg-dark" id="floatingPassword" >
+                    </div>
+                    <div class="form-floating text-center">
+                        <label for="floatingPassword">BIRTH DATE:</label>
+                        <br>
+                        <input type="date" class="form-control bg-dark" id="floatingPassword">
+                    </div>
+                </div>
+                <div class="m-3">
+                    <a href="./paginaInicioUser.html"><button type="button" class="btn btn-secondary">SEND</button></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
